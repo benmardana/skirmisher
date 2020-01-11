@@ -1,6 +1,6 @@
 <script>
   import Hello from './components/Hello.svelte';
-  const name = "world";
+  const name = "skirmisher";
 </script>
 
 <style lang="scss">
