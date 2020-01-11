@@ -1,10 +1,16 @@
+<script>
+  export let name;
+</script>
+
 <style lang="scss">
-  @import "../styles/colors.scss";
+  @import "../styles/variables.scss";
 
   .Hello {
-    font-size: 3em;
+    text-align: center;
+    font-size: 6em;
     background-color: $red-primary;
     color: $grey-primary;
+    margin: 10px;
     padding: 10px;
     border-radius: 10px;
   }
@@ -12,5 +18,5 @@
 
 
 <div class="Hello">
-  Hello, world!
+  Hello, { name }!
 </div>

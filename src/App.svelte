@@ -1,21 +1,22 @@
 <script>
-  import HelloWorld from './components/HelloWorld.svelte';
+  import Hello from './components/Hello.svelte';
+  const name = "world";
 </script>
 
 <style lang="scss">
-  @import "./styles/colors.scss";
+  @import "./styles/variables.scss";
 
   .App {
     height: 100%;
     width: 100%;
     display: flex;
+    flex-flow: column;
     justify-content: center;
     align-items: center;
     background: $light-primary;
   }
-  
 </style>
 
 <div class="App">
-  <HelloWorld />
+  <Hello {name} />
 </div>

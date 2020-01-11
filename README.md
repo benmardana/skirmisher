@@ -1,16 +1,30 @@
 # Skirmisher
 
-A lightweight empty website template
+A lightweight empty website template - adapted from [sveltejs/template](https://github.com/sveltejs/template)
+
+Adds:
+
+- scss support
+- scss variables file with example
+- component structure
+- passing props example
 
 ## Get started
 
-Install the dependencies
+Clone this repository or download with [degit](https://github.com/Rich-Harris/degit)
+
+```bash
+npx degit benmcgarvey/skirmisher skirmisher
+cd skirmisher
+```
+
+Install dependencies
 
 ```bash
 npm install
 ```
 
-...then start your dev server - comes with hot reload built in. Edit a file in `src/` and the page will update.
+Then start your dev server. Editing a file in `src/` will trigger a rebuild.
 
 ```bash
 npm run dev
@@ -22,7 +36,7 @@ When you're ready to launch, build an optimised version of the app
 npm run build
 ```
 
-... and serve it!
+... and serve it wherever you like.
 
 ```bash
 npm run start
